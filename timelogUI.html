@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>SDC Biz Review</title>
+        <link rel="icon" href="images/dell logo.ico">
+        
+        <!-- Bootstrap CSS -->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/entry-page.css">
+        <link rel="stylesheet" href="css/styles.css">  
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  <title>Time Logger</title>
+     </head>
+  
+ 
+<section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-blue bg-light">
+      <img src="images/dell logo.png" alt="Dell" width=" 50" height="50">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adminLogin2.html"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Version 0.1</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+
+    <!-- Title -->
+    <h1>Time Log</h1>
+      <body>
+      
+  
+      <div class="containerTime">
+        
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-30">
+              <label for="weekDate">Week of</label>
+            </div>
+            <div class="col-50">
+              <input type="date" id="startDate" name="startDate">
+            </div>
+
+            <div class="col-30">
+              <label for="teamMember">Team member</label>
+            </div>
+            <div class="col-40">
+              <select id="teamName" name="name">
+                <option value="nothing"></option>
+                <option value="name">SK Teh</option>
+                <option value="name">Martin Sawtell</option>
+                <option value="name">Mark Law</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+    
+               
+            <div class="col-30">
+              <label for="project1">Deliver Project 1</label>
+            </div>
+            <div class="col-40">
+              <select id="project1" name="project1">
+                <option value="nothing"></option>
+                <option value="project">WT- Easy Connect</option>
+                <option value="project">WT- Mtg as content</option>
+                <option value="project">Insight Engine</option>
+              </select>
+            </div>
+            <div class="col-20">
+                <input type="number" id="hour1" name="hour1">
+            </div>
+      
+            <div class="col-30">
+                <label for="project2">Deliver Project 2</label>
+            </div>
+            <div class="col-40">
+                <select id="project2" name="project2">
+                  <option value="nothing"></option>
+                  <option value="project">WT- Easy Connect</option>
+                  <option value="project">WT- Mtg as content</option>
+                  <option value="project">Insight Engine</option>
+                </select>
+            </div>
+            <div class="col-20">
+                  <input type="number" id="hour2" name="hour2">
+            </div>
+                
+            <div class="col-30">
+                <label for="project3">Deliver Project 3</label>
+            </div>
+            <div class="col-40">
+                <select id="project3" name="project3">
+                  <option value="nothing"></option>
+                  <option value="project">WT- Easy Connect</option>
+                  <option value="project">WT- Mtg as content</option>
+                  <option value="project">Insight Engine</option>
+                </select>
+            </div>
+            <div class="col-20">
+                  <input type="number" id="hour3" name="hour3">
+            </div>
+
+            <div class="col-30">
+              <label for="project3">Deliver Project 4</label>
+            </div>
+            <div class="col-40">
+              <select id="project4" name="project4">
+                <option value="nothing"></option>
+                <option value="project">WT- Easy Connect</option>
+                <option value="project">WT- Mtg as content</option>
+                <option value="project">Insight Engine</option>
+              </select>
+            </div>
+            <div class="col-20">
+                <input type="number" id="hour4" name="hour4">
+            </div>
+              
+            <div class="col-30">
+              <label for="project3">Internal Project 1</label>
+            </div>
+            <div class="col-40">
+              <select id="projectA" name="projectA">
+                <option value="nothing"></option>
+                <option value="project">Smart Bottle</option>
+                <option value="project">Hackathon 2</option>
+                <option value="project">Core Training</option>
+              </select>
+            </div>
+            <div class="col-20">
+                <input type="number" id="hourA" name="hourA">
+            </div>
+          
+            <div class="col-30">
+              <label for="projectB">Internal Project 2</label>
+            </div>
+            <div class="col-40">
+              <select id="projectB" name="projectB">
+                <option value="nothing"></option>
+                <option value="project">Smart Bottle</option>
+                <option value="project">Hackathon 2</option>
+                <option value="project">Core Training</option>
+              </select>
+            </div>
+            <div class="col-20">
+                <input type="number" id="hourB" name="hourB">
+            </div>
+
+            <div class="col-30">
+              <label for="projectC">Internal Project 3</label>
+            </div>
+            <div class="col-40">
+              <select id="projectC" name="projectC">
+                <option value="nothing"></option>
+                <option value="project">Smart Bottle</option>
+                <option value="project">Hackathon 2</option>
+                <option value="project">Core Training</option>
+              </select>
+            </div>
+            <div class="col-20">
+                <input type="number" id="hourC" name="hourC">
+            </div>
+    
+            <div class="col-30">
+              
+            </div>
+            <div class="col-40">
+              <input type="submit" value="Submit" formaction="index.html">
+              <input type="reset" value="Reset" formaction="timelogUI.html">
+              
+            </div>
+            <div class="col-20">
+             
+            </div>
+            
+            <div class="col-30">
+              <h2>Total hours: <span class="highlightGreen">XXX hrs</span></h2>
+            </div>
+            <div class="col-40">
+              <img src="images/pie chart.png" alt="" width="500" height="500">
+            </div>
+            <div class="col-20">
+              
+            </div>
+            
+          </div>
+    
+      </div>
+      
+      
+</body>
+
+</html>
+
+
+<

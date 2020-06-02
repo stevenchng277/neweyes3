@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>SDC Biz Review</title>
+        <link rel="icon" href="images/dell logo.ico">
+        
+        <!-- Bootstrap CSS -->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">  
+       <link rel="stylesheet" href="css/forecast-page.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  <title>Time Logger</title>
+        <script defer src="entry-page.js"></script>
+      </head>
+  
+ 
+<section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-blue bg-light">
+      <img src="images/dell logo.png" alt="Dell" width=" 50" height="50">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.html"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Version 0.1</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav> 
+
+    <!-- Title -->
+    <h1>Administrator Forecast Entry Console</h1>
+    <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      </head>
+      <body>
+      
+  
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-20">
+              <label for="fname">Type of job</label>
+            </div>
+            <div class="col-50">
+             
+              <select id="jobType" name="job">
+                <option value="project">Project</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-20">
+              <label for="projectName">Project name</label>
+            </div>
+            <div class="col-50">
+              <select id="jobType" name="job">
+                <option value="Int0"></option>
+                <option value="Int1">Int-1</option>
+                <option value="Int2">Int-2</option>
+                <option value="Int3">Int-3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-20">
+              <label for="teamMember">Team member</label>
+            </div>
+            <div class="col-50">
+              <select id="teamName" name="name">
+                <option value="nothing"></option>
+                <option value="name">SK</option>
+                <option value="name">Mark</option>
+                <option value="name">CL</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-20">
+              <label for="startDate">Start date</label>
+            </div>
+            <div class="col-50">
+              <input type="date" id="startDate" name="startDate">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-20">
+              <label for="endDate">End date</label>
+            </div>
+            <div class="col-50">
+              <input type="date" id="endDate" name="endDate">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-20">
+              <label for="amount">Effort</label>
+            </div>
+            <div class="col-50">
+              <input type="number" id="hour" name="hour">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-20">
+              
+            </div>
+            <div class="col-50">
+              <input type="submit" value="Submit" formaction="admin.html">
+              <input type="reset" value="Reset" formaction="adminForecastProject.html">
+            </div>
+            
+          </div>
+        </form>
+      </div>
+      
+      
+</body>
+
+</html>

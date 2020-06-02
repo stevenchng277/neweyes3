@@ -1,0 +1,178 @@
+<style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 2px 3px;
+        border-radius: 4px;
+        border: slategrey;
+        background-color: yellow;
+
+      }
+      
+      label {
+        font-size: 1.3rem;
+        padding: 12px;
+        display: inline-block;
+        
+      }
+
+      select{
+        font-size: 1.3rem;
+        background-color: lightgreen;
+        padding: 20px 20px;
+      }
+
+      
+      input[type=submit] {
+        background-color: #0076ce;
+        color: white;
+        
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+      }
+      
+      input[type=submit]:hover {
+        background-color: slateblue;
+      }
+
+      input[type=reset] {
+        background-color: red;
+        color: white;
+        margin-left: 30px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+      }
+      
+      input[type=reset]:hover {
+        background-color: salmon;
+      }
+
+      input[type=back] {
+        background-color: green;
+        color: white;
+        width: 80px;
+        margin-left: 1px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+      }
+      
+      input[type=back]:hover {
+        background-color: darkgreen;
+      }
+      
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .containerTime {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-10 {
+        float: left;
+        width: 10%;
+        
+        
+      }
+
+      .col-20 {
+        float: left;
+        width: 20%;
+        margin-top: 6px;
+        
+      }
+      
+      .col-50 {
+        float: left;
+        width: 50%;
+        padding: 20px;
+      }
+      
+      .col-30 {
+        float: left;
+        text-align: right;
+        width: 30%;
+        
+      }
+      
+      .col-40 {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        color: darkgrey;
+        line-height: 3rem;
+        margin-top: 20px;
+    }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-20, .col-50, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+
+      span.highlightGreen {
+        color: green;
+        background-color: lightgreen;
+    }
+
+    .img {
+        margin: 5%;
+    }
+
+    button {
+      margin: 20px 0 0 10px;
+      background-color: #0076ce; 
+      border: none;
+      color: white;
+      padding: 2px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .btn1 {
+      margin: 5px 0 0 10px;
+      background-color: #0076ce; 
+      border: none;
+      color: white;
+      
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+      </style>
